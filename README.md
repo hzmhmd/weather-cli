@@ -1,19 +1,22 @@
+## Hazimmmm Learn Journeyyy yeah
+
+When I build this project, I learn many things:
+- How to test API calls without real internet 
+- Why environment variables important for security
+- How to make proper Python CLI app structure
+- Better way to handle errors in code
+
 # Weather CLI Tool
 
-A Python command-line interface tool that fetches and displays current weather for any city worldwide using the OpenWeatherMap API.
+Simple Python tool to check weather for any city using OpenWeatherMap API.
 
-## Features
+## And Finally what It Does
 
-- 🌤️ Get current weather conditions
-- 🌡️ Temperature in Celsius with "feels like" temperature
-- 🌍 Support for cities worldwide
-- 🛡️ Secure API key management
-- ❌ Comprehensive error handling
-- 🧪 Full test coverage with mocked API calls
+- Get current weather info
+- Show temperature in Celsius with "feels like"
+- Works for cities worldwide
+- Safe API key storage
+- Good error handling
+- Full test coverage
 
-## Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone <your-repository-url>
-   cd weather_cli
+## Message me !!

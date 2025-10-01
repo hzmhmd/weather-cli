@@ -1,7 +1,6 @@
 import os
 import requests
 from typing import Dict, Any
-# Change from relative to absolute imports
 from src.exceptions import ConfigurationError, GeoCodingError, WeatherAPIError, NetworkError
 
 class WeatherService:
@@ -44,7 +43,7 @@ class WeatherService:
         except requests.exceptions.RequestException as e:
             raise NetworkError(f"Network error: {e}") from e
         except GeoCodingError:
-            raise  # Re-raise GeoCodingError as is
+            raise  
         except Exception as e:
             raise GeoCodingError(f"Geocoding failed: {str(e)}") from e
     
@@ -74,7 +73,7 @@ class WeatherService:
         except requests.exceptions.RequestException as e:
             raise NetworkError(f"Network error: {e}") from e
         except WeatherAPIError:
-            raise  # Re-raise WeatherAPIError as is
+            raise  
         except Exception as e:
             raise WeatherAPIError(f"Weather API call failed: {str(e)}") from e
     
