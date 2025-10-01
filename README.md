@@ -1,4 +1,4 @@
-## Hazimmmm Learn Journeyyy yeah
+## Hazimmmmm Learning Journey
 
 When I build this project, I learn many things:
 - How to test API calls without real internet 
@@ -10,13 +10,20 @@ When I build this project, I learn many things:
 
 Simple Python tool to check weather for any city using OpenWeatherMap API.
 
-## And Finally what It Does
+## What It Does
 
 - Get current weather info
+- Show 3-day weather forecast with dates
 - Show temperature in Celsius with "feels like"
 - Works for cities worldwide
 - Safe API key storage
 - Good error handling
 - Full test coverage
+
+## Quick Start
+
+1. **Install requirements:**
+   ```bash
+   pip install -r requirements.txt
 
 ## Message me !!
